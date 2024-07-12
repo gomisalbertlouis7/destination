@@ -1,0 +1,263 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles pour la barre de navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:blue;
+    color: #fff;
+    padding: 10px 20px;
+    
+}
+
+.navbar-title h1 {
+    margin: 0;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: black;
+    opacity: 150%;
+    align-items: center;
+    height: 550px;
+    text-decoration: none;
+}
+
+.grid .colone1{
+    color: #fff;
+    opacity: 100%;
+}
+
+.grid .colone1 .title{
+    font-family: bold;
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.grid .colone1 .bouton{
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+}
+.grid .colone1 .bouton:hover{
+    background-color: blue;
+
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.body .colone3 h1{
+    text-align: center;
+}
+
+
+.body .colone4 h1{
+    text-align: center;
+}
+
+
+.body .colone5 h1{
+    text-align: center;
+}
+
+
+.body .colone6 h1{
+    text-align: center;
+}
+
+.body .colone6 .bouton{
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.body .colone6 .bouton:hover{
+    background-color: blue;
+
+}
+.body .colone5 .bouton{
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.body .colone5 .bouton:hover{
+    background-color: blue;
+
+}
+.body .colone4 .bouton{
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.body .colone4 .bouton:hover{
+    background-color: blue;
+
+}
+
+
+.body .colone3 .bouton:hover{
+    background-color: blue;
+
+}
+.body .colone3 .bouton{
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+
+    
+/* Extra small devices */
+@media (max-width: 576px) { 
+    
+    .body{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+
+    .body .colone3 h1{
+        margin: 70px 0 0 0;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: black;
+        opacity: 150%;
+        align-items: center;
+        height: 550px;
+        text-decoration: none;
+    }
+
+} 
+
+/* Small devices (landscape phones, 576px and up)  */
+   @media (min-width: 576px) and (max-width: 768px) {
+
+    .body{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: black;
+        opacity: 150%;
+        align-items: center;
+        height: 550px;
+        text-decoration: none;
+    }
+    
+    } 
+
+/* Medium devices (tablets, 768px and up)  */
+
+   @media (min-width: 768px) and (max-width: 992px)  {
+
+    .body{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 25% 25%;
+        background-color: black;
+        opacity: 150%;
+        align-items: center;
+        height: 550px;
+        text-decoration: none;
+    }
+    
+    } 
+
+/* Large devices (desktops, 992px and up)  */
+
+   @media (min-width: 992px) and (max-width: 1200px)  {
+
+    .body{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background-color: black;
+        opacity: 150%;
+        align-items: center;
+        height: 550px;
+        text-decoration: none;
+    }
+    
+    } 
+/* Extra large devices (large desktops, 1200px and up)  */
+
+   @media (min-width: 1200px) {
+
+    .body{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background-color: black;
+        opacity: 150%;
+        align-items: center;
+        height: 550px;
+        text-decoration: none;
+    }
+    
+    } 
